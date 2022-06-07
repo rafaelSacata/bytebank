@@ -6,8 +6,10 @@
 <!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
 <!-- * * * * * * * to get started with your project! * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<app-nova-transferencia></app-nova-transferencia>
+<app-nova-transferencia (aoTransferir)="transferir($event)"></app-nova-transferencia>
 
+<p>valor: {{valor}} </p>
+<p>destino: {{destino}}</p>
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
 <!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
