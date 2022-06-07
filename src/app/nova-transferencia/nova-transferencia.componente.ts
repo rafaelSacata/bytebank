@@ -23,6 +23,12 @@ export class NovaTransferenciaComponent {
     };
 
     this.aoTransferir.emit(valorEmitir);
+    this.limparCampos();
 
+  }
+
+  limparCampos() {
+    this.valor = 0;
+    this.destino = 0;
   }
 }
